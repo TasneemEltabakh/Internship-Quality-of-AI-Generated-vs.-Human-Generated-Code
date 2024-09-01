@@ -1,0 +1,6 @@
+principle=float(input("Enter principle:"))
+rate=float(input("Enter rate(%):"))
+n=float(input("Enter n:"))
+time=float(input("Enter time:"))
+amount=principle*pow(1+(rate/100.0)/n,n*time)
+print("The compound interest is",amount)

@@ -1,0 +1,1 @@
+def SumOfNaturalNumber(n):  if n>0:    return n+SumOfNaturalNumber(n-1)  else:    return nn=int(input("Enter the N Number:"))print("Sum of N Natural Number Using Recursion is:",SumOfNaturalNumber(n))

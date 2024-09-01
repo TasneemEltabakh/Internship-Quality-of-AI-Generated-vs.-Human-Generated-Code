@@ -1,0 +1,10 @@
+import arrow
+i = arrow.get(1857900545)
+print("Date from integers: ")
+print(i)
+f = arrow.get(1857900545.234323)
+print("\nDate from floats: ")
+print(f)
+s = arrow.get('1857900545')
+print("\nDate from Strings: ")
+print(s)

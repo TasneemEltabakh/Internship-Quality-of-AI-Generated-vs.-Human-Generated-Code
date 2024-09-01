@@ -1,0 +1,1 @@
+def SumEven(num1,num2):  if num1>num2:    return 0  return num1+SumEven(num1+2,num2)num1=2print("Enter your Limit:")num2=int(input())print("Sum of all Even numbers in the given range is:",SumEven(num1,num2))

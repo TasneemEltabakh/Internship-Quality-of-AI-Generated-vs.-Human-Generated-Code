@@ -1,0 +1,1 @@
+sum=0def SumOfEvenElement(arr,n):  global sum  if(n>0):    i=n-1    if(arr[i]%2==0):      sum=sum+arr[i]    SumOfEvenElement(arr,i)  return sumarr=[]n = int(input("Enter the size of the array: "))print("Enter the Element of the array:")for i in range(0,n):  num = int(input())  arr.append(num)print("Sum of even Element is:",SumOfEvenElement(arr,n))

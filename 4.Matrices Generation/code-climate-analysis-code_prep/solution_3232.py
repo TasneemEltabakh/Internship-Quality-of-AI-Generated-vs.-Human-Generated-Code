@@ -1,0 +1,1 @@
+sum=0def SumOfArray(arr,n):  global sum  if(n>0):    i=n-1    sum=sum+arr[i]    SumOfArray(arr,i)  return sumarr=[]n = int(input("Enter the size of the array: "))print("Enter the Element of the array:")for i in range(0,n):  num = int(input())  arr.append(num)print("Sum of Array Element is:",SumOfArray(arr,n))

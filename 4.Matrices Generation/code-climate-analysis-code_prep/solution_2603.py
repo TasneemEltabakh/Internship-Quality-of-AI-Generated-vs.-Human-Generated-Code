@@ -1,0 +1,1 @@
+str=input("Enter Your String:")ch=input("Enter the Character:")sub_str=str.split(" ")print("All the words starting with ",ch," are:")for inn in range(0,len(sub_str)):  if sub_str[inn].startswith(ch):    print(sub_str[inn],end=" ")

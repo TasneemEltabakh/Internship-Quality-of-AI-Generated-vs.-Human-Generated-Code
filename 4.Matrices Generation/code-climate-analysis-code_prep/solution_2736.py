@@ -1,0 +1,1 @@
+arr=[]size = int(input("Enter the size of the array: "))print("Enter the Element of the array:")for i in range(0,size):  num = int(input())  arr.append(num)sum=0for i in range(0,size):  sum += arr[i]size2=size+1miss=int((size2*(size2+1))/2)print("Missing Number is: ",abs(miss-sum))

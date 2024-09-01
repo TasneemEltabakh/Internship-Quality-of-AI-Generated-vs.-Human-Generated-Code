@@ -1,0 +1,1 @@
+def Power(num1,num2):  if num2==0:    return 1  return num1*Power(num1, num2-1)num1=int(input("Enter the base value:"))num2=int(input("Enter the power value:"))print("Power of Number Using Recursion is:",Power(num1,num2))

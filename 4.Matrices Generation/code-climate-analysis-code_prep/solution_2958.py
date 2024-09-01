@@ -1,0 +1,1 @@
+str=input("Enter Your String:")arr=[0]*256for i in range(len(str)):  if str[i]!=' ':    num=ord(str[i])    arr[num]+=1print("After Removing Duplicate character from a given string is:")for i in range(len(str)):  if str[i]!=' ':    if arr[ord(str[i])] !=0:      print(str[i],end="")      arr[ord(str[i])]=0  else:    print(str[i], end="")

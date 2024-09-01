@@ -1,0 +1,1 @@
+# Get size of matrixrow_size=int(input("Enter the row Size Of the Matrix:"))col_size=int(input("Enter the columns Size Of the Matrix:"))matrix=[]# Taking input of the matrixprint("Enter the Matrix Element:")for i in range(row_size):matrix.append([int(j) for j in input().split()])# display the Matrixprint("Given Matrix is:")for m in matrix:print(m)

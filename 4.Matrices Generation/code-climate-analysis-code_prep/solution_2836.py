@@ -1,0 +1,1 @@
+str=input("Enter Your String:")sub_str=str.split(" ")print("After reversing words in a given string is:")for out in range(len(sub_str)-1,-1,-1):  print(sub_str[out],end=" ")

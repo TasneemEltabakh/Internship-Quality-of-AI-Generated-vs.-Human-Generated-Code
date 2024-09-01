@@ -1,0 +1,1 @@
+def check_AutomorphicNumber(num):  sqr = num * num  if (num > 0):    if (num % 10 != sqr % 10):      return -1    else:      check_AutomorphicNumber(num // 10)      return 0  return 0num=int(input("Enter a number:"))if (check_AutomorphicNumber(num) == 0):  print("It is an Automorphic Number.")else:  print("It is not an Automorphic Number.")

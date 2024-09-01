@@ -1,0 +1,1 @@
+def odd(num1,num2):  if num1>num2:    return  print(num1,end=" ")  return odd(num1+2,num2)num1=1print("Enter your Limit:")num2=int(input())print("All odd number given range are:")odd(num1,num2)

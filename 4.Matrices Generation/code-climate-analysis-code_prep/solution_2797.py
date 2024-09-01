@@ -1,0 +1,1 @@
+sem=1octal=0def DecimalToOctal(n):  global sem,octal  if(n!=0):    octal = octal + (n % 8) * sem    sem = sem * 10    DecimalToOctal(n // 8)  return octaln=int(input("Enter the Decimal Value:"))print("Octal Value of Decimal number is: ",DecimalToOctal(n))

@@ -1,0 +1,1 @@
+def SumOfDigits(num):  if num==0:    return 0  else:    return ((num%10) +SumOfDigits(num//10))num=int(input("Enter the Number:"))print("Sum of digits of given Number Using Recursion is:",SumOfDigits(num))

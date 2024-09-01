@@ -1,0 +1,1 @@
+def Subtraction(num1,num2):  if num2==0:    return num1  return Subtraction(num1-1, num2-1)print("Enter the two Number:")num1=int(input())num2=int(input())print("Subtraction of Two Number Using Recursion is: ",Subtraction(num1,num2))

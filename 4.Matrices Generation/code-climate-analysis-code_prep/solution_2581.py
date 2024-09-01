@@ -1,0 +1,1 @@
+n=int(input("Enter the range of number(Limit):"))i=1while i<=n:  print(i,end=" ")  i*=2

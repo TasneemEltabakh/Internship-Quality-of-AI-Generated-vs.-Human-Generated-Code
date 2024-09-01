@@ -1,0 +1,1 @@
+str=input("Enter Your String:")sub_str=str.split(" ")minInd=0min=0min = len(sub_str[0])for inn in range(0,len(sub_str)):  len1 = len(sub_str[inn])  if len1 < min:    min=len1    minInd=innprint("Smallest Substring(Word) is ",sub_str[minInd])

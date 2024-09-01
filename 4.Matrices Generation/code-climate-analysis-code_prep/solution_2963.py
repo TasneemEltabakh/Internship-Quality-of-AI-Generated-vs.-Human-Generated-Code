@@ -1,0 +1,1 @@
+str=input("Enter Your String:")count=0for inn in range(0,len(str)):  if str[inn] >= '0' and str[inn] <= '9':    count+=1if count==len(str):  print("String contains only digits.")else:  print("String does not contain only digits.")

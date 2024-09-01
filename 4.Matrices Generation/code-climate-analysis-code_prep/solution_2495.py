@@ -1,0 +1,1 @@
+str=input("Enter Your String:")for inn in range(0,len(str)):  print(str[inn]+str[inn],end="")

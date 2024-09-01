@@ -1,0 +1,1 @@
+str=input("Enter Your String:")arr=[0]*256max=0sec_max=0i=0for i in range(len(str)):  if str[i]!=' ':    num=ord(str[i])    arr[num]+=1for i in range(256):  if arr[i] > arr[max]:    sec_max = max    max = i  elif arr[i]>arr[sec_max] and arr[i]!=arr[max]:    sec_max = iprint("The Second Most occurring character in a string is "+(chr)(sec_max))

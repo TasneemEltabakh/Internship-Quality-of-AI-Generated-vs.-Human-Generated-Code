@@ -1,0 +1,1 @@
+arr=[]size = int(input("Enter the size of the array: "))print("Enter the Element of the array:")for i in range(0,size):  num = int(input())  arr.append(num)for i in range(0,size):  for j in range(i+1, size):    if arr[i]>=arr[j]:      temp = arr[i]      arr[i] = arr[j]      arr[j] = tempprint("After segregate 0s, 1s and 2s in an Array, Array is:",arr)

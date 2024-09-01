@@ -1,0 +1,1 @@
+sum=0def check_ArmstrongNumber(num):  global sum  if (num!=0):    sum+=pow(num%10,3)    check_ArmstrongNumber(num//10)  return sumnum=int(input("Enter a number:"))if (check_ArmstrongNumber(num) == num):  print("It is an Armstrong Number.")else:  print("It is not an Armstrong Number.")

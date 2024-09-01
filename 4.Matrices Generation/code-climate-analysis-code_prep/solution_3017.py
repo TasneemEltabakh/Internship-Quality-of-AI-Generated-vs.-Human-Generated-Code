@@ -1,0 +1,1 @@
+arr=[]size = int(input("Enter the size of the array: "))print("Enter the Element of the array:")for i in range(0,size):  num = int(input())  arr.append(num)Maximum_Sum=0for i in range(0,size):  for j in range(i, size):    sum=0    for p in range(i, j):      sum+=arr[p]    if sum>=Maximum_Sum:      Maximum_Sum=sumprint("Maximum sum of Contiguous Subarray is ",Maximum_Sum)

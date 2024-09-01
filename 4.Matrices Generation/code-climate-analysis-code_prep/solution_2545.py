@@ -1,0 +1,1 @@
+import arrayarr=array.array('i', [95,88,77,45,69])print("Marks obtained by a student in five tests are:")for i in range(0,5):  print(arr[i],end=" ")

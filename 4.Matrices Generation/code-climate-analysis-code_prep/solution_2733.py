@@ -1,0 +1,1 @@
+def Copy_String(str, str1,i):  str1[i]=str[i]  if (str[i] == '\0'):    return  Copy_String(str, str1, i + 1)str=input("Enter your String:")str+='\0'str1=[0]*(len(str))Copy_String(str, str1,0)print("Copy Done...")print("Copy string is:","".join(str1))

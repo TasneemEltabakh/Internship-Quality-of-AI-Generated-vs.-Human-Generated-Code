@@ -1,0 +1,1 @@
+n=int(input("Enter the range of number(Limit):"))for out in range(n+1):  for i in range(out):    print(out,end="")  print(end=" ")

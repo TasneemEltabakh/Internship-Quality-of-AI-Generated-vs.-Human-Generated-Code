@@ -1,0 +1,1 @@
+def StringLength(str, i):  if (str[i] == '\0'):    return 0  else:    return (1 + StringLength(str, i + 1))str=input("Enter your String:")str+='\0'print("Length of the String is: ",StringLength(str,0))

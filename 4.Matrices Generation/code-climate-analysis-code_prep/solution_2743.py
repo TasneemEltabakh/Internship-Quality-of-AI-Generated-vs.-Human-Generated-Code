@@ -1,0 +1,1 @@
+row_size=int(input("Enter the row size:"))x=0for out in range(row_size,-(row_size+1),-1):  for inn in range(1,abs(out)+1):    print(" ",end="")  for p in range(row_size,abs(out)-1,-1):    print((chr)(x+65),end=" ")  if out > 0:    x +=1  else:    x -=1  print("\r")

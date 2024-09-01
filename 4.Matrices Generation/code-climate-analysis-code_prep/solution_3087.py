@@ -1,0 +1,1 @@
+n=int(input("Enter the range of number:"))sum=0i=0while i<=n:  sum+=i  i+=2print("The sum of the series = ",sum)

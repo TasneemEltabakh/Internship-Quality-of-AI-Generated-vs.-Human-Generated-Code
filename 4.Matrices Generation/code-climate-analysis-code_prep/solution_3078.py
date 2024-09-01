@@ -1,0 +1,1 @@
+n=int(input("Enter the range of number:"))sum=0.0for i in range(1,n+1):  sum += i / (i + 1)print("The sum of the series = ",sum)

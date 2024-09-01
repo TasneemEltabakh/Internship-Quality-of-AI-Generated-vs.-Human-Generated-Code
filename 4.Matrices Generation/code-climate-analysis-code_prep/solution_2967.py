@@ -1,0 +1,1 @@
+def gcd(num1,num2):  if num2==0:    return num1  else:    return gcd(num2,num1%num2)def lcm(num1,num2):  return (num1 * num2) // gcd(num1, num2)print("Enter the two Number:")num1=int(input())num2=int(input())print("Lcm of Given Numbers Using Recursion is:",lcm(num1,num2))
