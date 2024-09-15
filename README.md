@@ -271,35 +271,6 @@ The goal of this model is to classify whether a given code snippet is AI-generat
 - **Principal Component Analysis (PCA)**: Used for dimensionality reduction and to visualize the separation between AI and human code.
 - **Feature Importance**: Shows which features contribute most to classification.
 
-## Visualizations
-
-### Confusion Matrix
-The confusion matrix shows the classification performance of the model:
-![Confusion Matrix](confusion_matrix.png)
-
-- **547** human-written code samples were correctly classified.
-- **510** AI-generated code samples were correctly classified.
-- The model produced **4 false positives** and **2 false negatives**.
-
-### Correlation Heatmap
-The heatmap below displays the correlation between different code metrics used in the model:
-![Correlation Heatmap](correlation_heatmap.png)
-
-### Distribution Comparison
-This figure compares the distributions of key code metrics between human and AI-generated code:
-![Distribution Comparison](distribution_comparison.png)
-
-### Feature Distributions
-The following boxplots show the distributions of important features between human and AI-generated code:
-![Feature Distributions](feature_distributions.png)
-
-### Feature Importance
-This bar plot shows the importance of various features in the model:
-![Feature Importance](feature_importance.png)
-
-### PCA Visualization
-A 2D PCA plot that visualizes the separation between human-written and AI-generated code:
-![PCA Visualization](pca_visualization.png)
 
 ## How to Run
 
