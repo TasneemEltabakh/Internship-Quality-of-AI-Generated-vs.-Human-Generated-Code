@@ -298,39 +298,36 @@ Internship-Quality-of-AI-Generated-vs.-Human-Generated-Code/
 │
 ├── DataCollecting_Human/
 │   ├── human-eval-master/
-│   │   └── # Contains the HumanEval dataset (human-written Python code)
 │   ├── leetcode-main/
-│   │   └── # Scripts for scraping LeetCode (pre-2014 data)
 │   ├── PythonCleaning/
-│   │   └── # Cleaned dataset from Kaggle ("Coding Problems and Solutions - Python Code")
 │   └── Web Scraping/
-│       └── # Scripts to scrape code from Wayback Machine for platforms like Codeforces and HackerRank
+│      
 │
 ├── LiteratureSurvey/
-│   ├── Literature Survey.xlsx
-│   └── # Contains materials related to the literature review phase, including research papers and findings
+│   └──Literature Survey.xlsx
+│  
 │
 ├── AI-Generated Code/
 │   ├── Cleaned_ProblemSolutionPythonV3.csv
 │   ├── output_with_solutions_GPT4.csv
 │   └── main.py
-│       └── # Script for processing AI-generated code (cleaning and transformations)
+│    
 │
 ├── Matrices Generation/
 │   ├── 4.1 Generate GPT-4 Solution's Matrix Files/
 │   │   ├── separated-files.py
-│   │   ├── MatrixGeneration.py
-│   │   └── # Processes AI-generated solutions into feature matrices
+│   │   └── MatrixGeneration.py
+│   │  
 │   └── 4.2 Generate Human Solution's Matrix Files/
 │       ├── separated-files.py
-│       ├── MatrixGeneration.py
-│       └── # Processes human-generated solutions into feature matrices
+│       └──MatrixGeneration.py
+│    
 │
 ├── Machine Learning Model/
 │   ├── Model.ipynb
 │   ├── main-dataset.xlsx
 │   └── Images and Visualizations/
-│       └── # Contains images generated from model evaluations
+│      
 │
 ├── README.md
 └── LICENSE
