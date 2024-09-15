@@ -1,1 +1,0 @@
-str=input("Enter Your String:")count=0for inn in range(0,len(str)):  if str[inn] >= '0' and str[inn] <= '9':    count+=1if count>=1:  print("String contains at least one digits.")else:  print("String does not contains at least one digits.")

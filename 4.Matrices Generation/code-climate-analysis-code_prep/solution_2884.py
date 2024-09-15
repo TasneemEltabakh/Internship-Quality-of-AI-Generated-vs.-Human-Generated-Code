@@ -1,1 +1,0 @@
-def ReverseArray(arr,n):  if(n>0):    i=n-1    print(arr[i], end=" ")    ReverseArray(arr, i)arr=[]n = int(input("Enter the size of the array: "))print("Enter the Element of the array:")for i in range(0,n):  num = int(input())  arr.append(num)print("After reversing Array Element Are:")ReverseArray(arr,n)

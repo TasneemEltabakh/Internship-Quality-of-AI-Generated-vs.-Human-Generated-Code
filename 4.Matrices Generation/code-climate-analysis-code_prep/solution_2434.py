@@ -1,1 +1,0 @@
-str3=""def DecimalToHexadecimal(n):  global str3  if(n!=0):    rem = n % 16    if (rem < 10):      str3 += (chr)(rem + 48) # 48 Ascii = 0    else:      str3 += (chr)(rem + 55) #55 Ascii = 7    DecimalToHexadecimal(n // 16)  return str3n=int(input("Enter the Decimal Value:"))str=DecimalToHexadecimal(n)print("Hexadecimal Value of Decimal number is:",''.join(reversed(str)))

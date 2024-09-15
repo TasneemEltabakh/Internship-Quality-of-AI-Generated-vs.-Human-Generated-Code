@@ -1,1 +1,0 @@
-n=int(input("Enter the range of number(Limit):"))i=1pr=1while i<=n:  if(i%2==0):    print(-1*pr,end=" ")  else:    print(pr, end=" ")  pr+=pow(i,2)  i+=1

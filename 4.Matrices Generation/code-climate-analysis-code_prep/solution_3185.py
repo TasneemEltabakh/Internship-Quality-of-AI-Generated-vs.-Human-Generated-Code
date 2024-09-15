@@ -1,1 +1,0 @@
-arr=[]size = int(input("Enter the size of the array: "))print("Enter the Element of the array:")for i in range(0,size):  num = int(input())  arr.append(num)c=0for i in range(0,size):  if arr[i]!=0:    arr[c]=arr[i]    c+=1for i in range(c,size):    arr[c]=0    c+=1print("After Move all zeros to end, Array is:")print(arr)

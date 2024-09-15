@@ -1,1 +1,0 @@
-sum=0def SumOfOddElement(arr,n):  global sum  if(n>0):    i=n-1    if(arr[i]%2==1):      sum=sum+arr[i]    SumOfOddElement(arr,i)  return sumarr=[]n = int(input("Enter the size of the array: "))print("Enter the Element of the array:")for i in range(0,n):  num = int(input())  arr.append(num)print("Sum of Odd Element is:",SumOfOddElement(arr,n))

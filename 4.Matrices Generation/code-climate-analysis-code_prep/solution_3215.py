@@ -1,1 +1,0 @@
-row_size=int(input("Enter the row size:"))for out in range(row_size,0,-1):  for inn in range(row_size,out,-1):    print(" ",end="")  for p in range(out,0,-1):    print(out,end=" ")  print("\r")

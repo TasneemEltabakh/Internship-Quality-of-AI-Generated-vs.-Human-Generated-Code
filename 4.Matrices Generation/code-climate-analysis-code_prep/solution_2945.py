@@ -1,1 +1,0 @@
-arr=[]sum=0avg=0.0print("Enter the five test Marks:")for i in range(0,5):  mark = int(input())  sum+=mark  arr.append(mark)avg=sum/5.0print("Average of five tests marks is: ",avg)

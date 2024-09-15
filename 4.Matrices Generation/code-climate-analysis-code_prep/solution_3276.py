@@ -1,1 +1,0 @@
-n=int(input("Enter the range of number:"))sum=0for i in range(2,n+2):  sum+=1+(i*(i-1))print("The sum of the series = ",sum)

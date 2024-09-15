@@ -1,1 +1,0 @@
-str=input("Enter Your String:")min=999arr=[0]*256for i in range(len(str)):  if str[i]==' ':    continue  num=ord(str[i])  arr[num]+=1ch=' 'for i in range(len(str)):  if arr[ord(str[i])] != 0:    if arr[ord(str[i])] <= min:      min = arr[ord(str[i])]      ch=str[i]print("The Minimum occurring character in a string is ",ch)

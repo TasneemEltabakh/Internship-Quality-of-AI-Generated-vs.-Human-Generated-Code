@@ -1,1 +1,0 @@
-def SumOdd(num1,num2):  if num1>num2:    return 0  return num1+SumOdd(num1+2,num2)num1=1print("Enter your Limit:")num2=int(input())print("Sum of all odd numbers in the given range is:",SumOdd(num1,num2))

@@ -1,1 +1,0 @@
-arr=[]size = int(input("Enter the size of the array: "))print("Enter the Element of the array(only 0s and 1s):")for i in range(0,size):  num = int(input())  arr.append(num)c=0for i in range(0,size):  if arr[i]==0:    c+=1for i in range(0,c):    arr[i]=0for i in range(c,size):    arr[i]=1print("After segregate 0s and 1s in an Array, Array is:")print(arr)

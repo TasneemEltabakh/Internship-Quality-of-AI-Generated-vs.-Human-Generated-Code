@@ -1,1 +1,0 @@
-rev = 0def Num_reverse(num):  global rev  if num!=0:    rem=num%10    rev=(rev*10)+rem    Num_reverse(num//10)  return revnum=int(input("Enter your Number:"))if(Num_reverse(num)==num):  print(num," is a Palindrome Number.")else:  print(num," is not a Palindrome Number.")

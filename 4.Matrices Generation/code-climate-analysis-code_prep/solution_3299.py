@@ -1,1 +1,0 @@
-def sum(num1,num2):  if num2==0:    return num1  return sum(num1, num2-1)+1print("Enter the two Number:")num1=int(input())num2=int(input())print("Sum of Two Number Using Recursion is: ",sum(num1,num2))

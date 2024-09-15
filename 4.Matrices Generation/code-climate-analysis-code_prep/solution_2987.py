@@ -1,1 +1,0 @@
-n=int(input("Enter the range of number(Limit):"))i=4if n>=1:  print("1 ",end="")if n>=2:  print("2 ",end="")if n>=3:  print("5 ",end="")a=1b=2c=5while i<=n:  d = a + b + c  a = b  b = c  c = d  print(d,end=" ")  i+=1

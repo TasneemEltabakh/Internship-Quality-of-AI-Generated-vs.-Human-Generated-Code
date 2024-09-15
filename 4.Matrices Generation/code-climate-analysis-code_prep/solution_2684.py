@@ -1,1 +1,0 @@
-def CheckPrime(i,num):  if num==i:    return 0  else:    if(num%i==0):      return 1    else:      return CheckPrime(i+1,num)n=int(input("Enter your Number:"))print("Prime Number Between 1 to n are: ")for i in range(2,n+1):  if(CheckPrime(2,i)==0):    print(i,end=" ")

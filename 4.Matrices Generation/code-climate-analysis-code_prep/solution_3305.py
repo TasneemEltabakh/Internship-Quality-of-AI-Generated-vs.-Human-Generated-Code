@@ -1,5 +1,0 @@
-
-raise RuntimeError('something wrong')
-
-
-

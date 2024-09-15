@@ -1,1 +1,0 @@
-import sysarr=[]size = int(input("Enter the size of the array: "))print("Enter the Element of the array:")for i in range(0,size):  num = int(input())  arr.append(num)Min_diff=sys.maxsizefor i in range(0,size-1):  for j in range(i+1, size):    if abs(arr[j]-arr[i])<Min_diff:      Min_diff = abs(arr[j] - arr[i])print("Minimum difference between two Element is ",Min_diff)

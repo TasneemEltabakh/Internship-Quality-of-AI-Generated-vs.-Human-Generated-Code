@@ -1,1 +1,0 @@
-def Factorial(num):  if num<=0:    return 1  else:    return num*Factorial(num-1)num=int(input("Enter the Number:"))print("Factorial of Given Number Using Recursion is:",Factorial(num))

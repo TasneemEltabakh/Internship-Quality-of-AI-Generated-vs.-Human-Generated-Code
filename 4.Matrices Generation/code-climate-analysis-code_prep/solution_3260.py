@@ -1,1 +1,0 @@
-def MultiplicationTable(num, i):  print(num," X ",i," = ",num * i)  if (i < 10):    MultiplicationTable(num, i + 1)num=int(input("Enter a number:"))print("Multiplication Table of ",num," is:")MultiplicationTable(num, 1)

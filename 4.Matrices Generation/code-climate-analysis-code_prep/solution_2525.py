@@ -1,1 +1,0 @@
-import sysarr=[]size = int(input("Enter the size of the array: "))print("Enter the Element of the array:")for i in range(0,size):  num = int(input())  arr.append(num)Max_diff=-sys.maxsize-1for i in range(0,size-1):  for j in range(i+1, size):    if abs(arr[j]-arr[i])>Max_diff:      Max_diff = abs(arr[j] - arr[i])print("Maximum difference between two Element is ",Max_diff)

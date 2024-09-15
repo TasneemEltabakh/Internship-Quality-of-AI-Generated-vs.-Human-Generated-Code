@@ -1,1 +1,0 @@
-count=0def count_digit(num):  global count  if (num != 0):    count +=1    count_digit(num // 10)  return countn=int(input("Enter a number:"))print("The number of digits in the Given Number is ",count_digit(n))

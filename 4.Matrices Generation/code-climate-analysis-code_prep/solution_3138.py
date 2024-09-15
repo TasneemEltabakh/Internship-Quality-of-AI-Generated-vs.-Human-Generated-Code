@@ -1,1 +1,0 @@
-c=0def Check_Palindrome(str,i,length):  global c  if (i < len(str)):    if (str[i] == str[length]):      c +=1      Check_Palindrome(str, i + 1, length-1)  return cstr=input("Enter your String:")if(Check_Palindrome(str,0,len(str)-1)==len(str)):  print("It is a Palindrome String.")else: print("It is not a Palindrome String.")

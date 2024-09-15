@@ -1,1 +1,0 @@
-def BinaryToDecimal(n):  if n==0:    return 0  else:    return (n% 10 + 2* BinaryToDecimal(n // 10))n=int(input("Enter the Binary Value:"))print("Decimal Value of Binary number is:",BinaryToDecimal(n))

@@ -1,1 +1,0 @@
-n=int(input("Enter the range of number(Limit):"))i=1pr=6diff=5while i<=n:  print(pr,end=" ")  pr = pr + diff  diff = diff + 5  i+=1

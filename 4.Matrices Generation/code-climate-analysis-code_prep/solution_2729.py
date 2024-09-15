@@ -1,1 +1,0 @@
-arr=[]size = int(input("Enter the size of the array: "))print("Enter the Element of the array:")for i in range(0,size):  num = int(input())  arr.append(num)pos=int(input("Enter the position of the Element:"))print("Before deleting array elements are:")for i in range(0,size):  print(arr[i],end=" ")arr.pop(pos)print("\nAfter Deleting Array Element are:")print(arr)
