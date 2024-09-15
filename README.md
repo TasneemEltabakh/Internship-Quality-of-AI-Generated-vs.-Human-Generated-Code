@@ -339,6 +339,6 @@ This project is licensed under the MIT License. See the LICENSE file for more in
 ---
 Please don't hesitate to reach out if you require any further assistance.
 
-- s-tasneem.attia@zewailcity.edu.eg
-- s-nada.soudi@zewailcity.edu.eg
-- dshawky@zewailcity.edu.eg
+- Tasneem Attia: s-tasneem.attia@zewailcity.edu.eg
+- Nada Nabil s-nada.soudi@zewailcity.edu.eg
+- Dr. Doaa Shawky dshawky@zewailcity.edu.eg
