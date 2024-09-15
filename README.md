@@ -341,3 +341,4 @@ Please don't hesitate to reach out if you require any further assistance.
 
 - s-tasneem.attia@zewailcity.edu.eg
 - s-nada.soudi@zewailcity.edu.eg
+- dshawky@zewailcity.edu.eg
