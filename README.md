@@ -1,7 +1,125 @@
+<<<<<<< Updated upstream
 # Internship-Quality-of-AI-Generated-vs.-Human-Generated-Code
 
 # AI vs Human Code Classification
 # Folder 3: AI-Generated Code
+=======
+# Quality of AI-Generated vs. Human-Generated Code
+
+# 1: Literature Survey
+
+This folder contains materials and resources related to the literature review phase of the project. It includes a detailed exploration of existing research on AI-generated and human-generated code quality, identifying gaps in the literature and laying the foundation for the comparative analysis.
+
+## Folder Components
+
+- **Literature Survey.xlsx**: This Excel file contains a comprehensive summary of key research studies, including:
+  - Title of the paper
+  - Year of publication
+  - Authors
+  - Key findings
+  - Methodologies used
+  - Identified research gaps
+  - Relevance to our project objectives
+
+## Purpose
+
+The literature survey serves as the initial phase of the project, where we systematically review previous studies to understand the current state of research on AI-generated and human-generated code quality. The results from this phase provide essential context and support for our own analysis in later stages of the project.
+
+## Structure of the Excel File
+
+The **Literature Survey.xlsx** is organized as follows:
+- **Title**: Name of the research paper or source.
+- **Year**: The year the study was published.
+- **Authors**: Names of the researchers or contributors.
+- **Key Findings**: A brief summary of the most relevant findings related to AI and human code quality.
+- **Methodology**: Descriptions of the techniques or approaches used in the research.
+- **Limitations/Gaps**: Gaps identified in the research that our project aims to address.
+- **Relevance**: The relationship of each study to our project's goals, including any insights that inform our comparative analysis.
+
+## How to Use the Literature Survey
+
+1. **Explore Existing Research**: Use the Excel file to understand the major findings from previous studies on AI and human code quality. This can help guide your analysis and provide references for academic writing.
+   
+2. **Identify Gaps**: The survey identifies key gaps in current research, helping you to position your work within the broader academic and technical context.
+
+3. **Plan Your Work**: The summarized studies offer insight into different methodologies used to analyze code quality. This can help inform the methodologies used in the later phases of this project.
+
+## Future Updates
+
+The **Literature Survey.xlsx** file will be updated as new research becomes available. As the project progresses, we may add new references, studies, or other literature that further informs our work.
+
+For any questions regarding the literature survey or the Excel file, feel free to contact the project maintainers.
+
+# 2: DataCollecting_Human
+
+This folder contains resources and scripts related to the collection of human-generated code for our comparative analysis. It involves scraping, cleaning, and curating datasets from popular coding platforms. The data collected here forms the human code dataset that is used in later stages of the project.
+
+## Folder Components
+
+### 1. **human-eval-master**
+This folder contains the **HumanEval** dataset, which consists of human-written code solutions for a wide range of coding problems.
+
+- **Dataset Description**: The HumanEval dataset includes Python-based coding problems along with human-written solutions, typically used as a baseline for comparing human code against AI-generated code.
+  
+- **Purpose**: The dataset helps compare human-written code with AI-generated solutions, providing a baseline for analysis.
+
+### 2. **leetcode-main**
+This folder contains scripts used for scraping **LeetCode**, a popular platform for coding challenges, to gather human-generated code solutions. The main focus is to extract pre-2014 code from LeetCode to ensure it is purely human-written without AI assistance.
+
+- **Scraping Process**: Python-based web scrapers were developed to extract human-written solutions from LeetCode archives.
+- **Purpose**: These solutions provide human code data for the same types of problems being analyzed with AI-generated code.
+
+### 3. **PythonCleaning**
+The **PythonCleaning** folder contains the cleaned and finalized dataset of human-generated code that was used for analysis.
+
+- **Source**: The dataset was obtained from a Kaggle dataset titled [Coding Problems and Solution - Python Code](https://www.kaggle.com/datasets/linkanjarad/coding-problems-and-solution-python-code).
+- **Data Cleaning**: Scripts in this folder ensure that the data is clean, validated, and free of errors before being used in our comparative analysis.
+
+### 4. **Web Scraping**
+This folder contains scripts for scraping code from the **Wayback Machine** to collect pre-2014 data from coding platforms such as **Codeforces**, **HackerRank**, and **LeetCode**.
+
+- **Scraping Scope**: The goal is to collect human-written code samples before AI-assisted coding became common, ensuring that the dataset is purely human-generated.
+- **Tools**: Python scripts with libraries like BeautifulSoup and requests were used to scrape archived content from the Wayback Machine.
+
+## Workflow
+
+### Step 1: HumanEval Dataset
+1. **Download** the HumanEval dataset from the `human-eval-master` folder.
+2. **Organize** the dataset for comparison with AI-generated code.
+
+### Step 2: LeetCode Scraping
+1. **Navigate to `leetcode-main`** to find scripts that scrape human-written solutions from LeetCode.
+2. **Run the scraper** to gather pre-2014 solutions from LeetCode archives.
+
+### Step 3: Web Scraping (Wayback Machine)
+1. **Navigate to `Web Scraping`** to find scripts that scrape coding platforms like Codeforces and HackerRank via the Wayback Machine.
+2. **Run the scripts** to extract data from before 2014, ensuring that the dataset is composed of human-written code.
+
+### Step 4: Data Cleaning
+1. **Use the PythonCleaning folder** for scripts that clean and validate the collected data.
+2. **Finalize the cleaned dataset** available on Kaggle, ensuring the code samples are free of errors and ready for analysis.
+
+## How to Use
+
+1. **Explore the subfolders**: Each folder has its purpose, from data scraping to cleaning. Start with the scraping scripts to gather raw data, then proceed to the cleaning process.
+   
+2. **Leverage the cleaned dataset** in the `PythonCleaning` folder for analysis. The final human-generated code data is available for direct comparison with AI-generated code.
+
+## Dependencies
+
+Make sure you have the following Python libraries installed for scraping and data processing:
+- **pandas**
+- **BeautifulSoup4**
+- **requests**
+
+You can install these dependencies using:
+```bash
+pip install pandas beautifulsoup4 requests
+ 
+```
+
+#  3: AI-Generated Code
+>>>>>>> Stashed changes
 
 This folder contains scripts and datasets related to AI-generated code, specifically solutions generated by GPT-4. The data is used for further analysis and processing in other parts of the project.
 
@@ -45,9 +163,15 @@ You can install external dependencies using the following command:
 ```bash
 pip install pandas openai
 ```
+<<<<<<< Updated upstream
 
 
 # Folder 4: Matrices Generation
+=======
+   
+
+#  4: Matrices Generation
+>>>>>>> Stashed changes
 
 This folder contains scripts to generate matrices for AI (GPT-4) solutions and human solutions. The process involves separating code snippets into individual Python files and then generating feature matrices from those files. 
 
@@ -160,6 +284,7 @@ The goal of this model is to classify whether a given code snippet is AI-generat
 - **Principal Component Analysis (PCA)**: Used for dimensionality reduction and to visualize the separation between AI and human code.
 - **Feature Importance**: Shows which features contribute most to classification.
 
+<<<<<<< Updated upstream
 ## Visualizations
 
 ### Confusion Matrix
@@ -189,6 +314,8 @@ This bar plot shows the importance of various features in the model:
 ### PCA Visualization
 A 2D PCA plot that visualizes the separation between human-written and AI-generated code:
 ![PCA Visualization](pca_visualization.png)
+=======
+>>>>>>> Stashed changes
 
 ## How to Run
 
@@ -204,4 +331,19 @@ pip install -r requirements.txt
 ### Run the model 
 ```bash
 jupyter notebook Model.ipynb
+<<<<<<< Updated upstream
 ```
+=======
+```
+
+## License:
+This project is licensed under the MIT License. See the LICENSE file for more information.
+
+---
+Please don't hesitate to reach out if you require any further assistance.
+
+- s-tasneem.attia@zewailcity.edu.eg
+- s-rghda.ahmed@zewailcity.edu.eg
+- s-nada.soudi@zewailcity.edu.eg
+- s-nourhan.mahgoub@zewailcity.edu.eg
+>>>>>>> Stashed changes
